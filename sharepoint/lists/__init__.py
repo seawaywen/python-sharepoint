@@ -181,7 +181,7 @@ class SharePointList(object):
 
     @property
     def rows(self):
-        self.get_rows(is_recursively=True)
+        return self.get_rows(is_recursively=True)
 
     @property
     def rows_by_id(self):
